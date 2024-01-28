@@ -1,8 +1,10 @@
 <template>
   <div class='main'>
     <div class='search'>
-      <h1>Search Movies</h1>
-      <input v-model='searchQuery' placeholder='Enter the movie title'>
+      <div class="title">
+        <img src="../assets/long.svg" alt="The movie database logo" class="logo">
+      </div>
+      <input v-model='searchQuery' placeholder='Enter movie title here'>
       <button @click='searchMovies'>Search</button>
     </div>
     <div class='results' v-if='movies.length > 0'>
@@ -134,6 +136,11 @@ export default {
     color: white;
     padding: 1em; /* Add some padding for better visibility */
     margin-top: auto; /* Push the attributions to the bottom */
+  }
+  .title{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
   }
 
 </style>
