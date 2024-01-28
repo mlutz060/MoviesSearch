@@ -19,5 +19,5 @@ You will need to make sure that the frontend and backend are running simultaneou
 5. Type 'npm run serve' and hit enter to start the project.
 6. You can now click on the Local: localhost link that appears in the terminal to see the project 
 
-**IMPORTANT** 
+## IMPORTANT
 You will have to change the apiKey in the index.js file to match your personal key given to you from themoviedb.org 
