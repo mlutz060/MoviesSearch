@@ -21,3 +21,9 @@ You will need to make sure that the frontend and backend are running simultaneou
 
 ## IMPORTANT
 You will have to change the apiKey in the index.js file to match your personal key given to you from themoviedb.org 
+
+
+## Next Steps
+There are a few directions I could take moving forward with this project. The first thing I know I want to do is add a movie details page. Users will be able to click on a movie as it shows up in the search and will be redirected to a page with all of the movie details. 
+A possible step after that is to create a login functionality for users. They might sign into the application and add movies to a watch list or be able to write reviews. If I did go in this direction I would need to include a blog component to the application. I would probably put this 'blog' section on the bottom of the movie details page. 
+Finally I would want to add a user page, were users might be able to see all of their information and update it as necessary. They would be able to access their watchlist and see all of the reviews that they have made in the past. 

@@ -22,6 +22,7 @@
     <div id="attributuions">
       <p>This data was contributed from The Movie Database</p>
       <span>https://www.themoviedb.org/settings/api</span>
+      <img src="" alt="">
     </div>
   </div>
 </template>
@@ -122,6 +123,17 @@ export default {
     margin: 0 auto;
     height: auto;
     border-radius: 8px;
+  }
+  .main {
+    min-height: 100vh; /* Set the minimum height to at least 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  .attributions {
+    background-color: #0d1218;
+    color: white;
+    padding: 1em; /* Add some padding for better visibility */
+    margin-top: auto; /* Push the attributions to the bottom */
   }
 
 </style>
